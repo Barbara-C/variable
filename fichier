@@ -1,5 +1,5 @@
-prixinitial=demande('Quel est le prix initial ?')
-remise=demande('Quelle est la remise en % ?')
+prixinitial=4
+remise=5
 prixfinal=prixinitial-prixinitial*remise/100
 
-print('Le prix remisé est',prixfinal,'€.')
+print("Le prix remisé est",prixfinal,"€.")
