@@ -1,0 +1,6 @@
+from lycee import *
+prixinitial=demande('Quel est le prix initial ?')
+remise=demande('Quelle est la remise en % ?')
+prixfinal=prixinitial-prixinitial*remise/100
+
+print('Le prix remisé est',prixfinal,'€.')
